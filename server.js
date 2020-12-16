@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const parser = require('body-parser');
 const path = require('path');
-const pageNotFound = require('./controllers/404.js');
+const pageNotFound = require('./controllers/404');
 
 app.set('view engine', 'ejs');
 app.set('views', 'view');
